@@ -26,7 +26,7 @@ const Header = ({ setIsOpen }) => {
     >
       <Link
         to="/"
-        className="text-3xl md:text-4xl font-bold tracking-tight"
+        className="text-2xl md:text-3xl font-bold tracking-tight"
         style={{ color: showBg ? theme.dark : theme.light }}
       >
         {config.businessName}
@@ -35,14 +35,14 @@ const Header = ({ setIsOpen }) => {
       <div className="hidden md:flex items-center gap-2">
         <Link
           to="/products"
-          className="px-4 py-2 rounded-xl text-lg font-medium transition-colors duration-200 hover:bg-white/70"
+          className="px-4 py-2 rounded-xl text-base font-medium transition-colors duration-200 hover:bg-white/70"
           style={{ color: showBg ? theme.dark : theme.light }}
         >
           Products
         </Link>
         <Link
           to="/contact"
-          className="px-4 py-2 rounded-xl text-lg font-medium text-white transition-all duration-200 hover:opacity-90"
+          className="px-4 py-2 rounded-xl text-base font-medium text-white transition-all duration-200 hover:opacity-90"
           style={{ backgroundColor: theme.accent }}
         >
           Contact Us
@@ -50,7 +50,7 @@ const Header = ({ setIsOpen }) => {
       </div>
 
       <button onClick={() => setIsOpen(true)} className="md:hidden">
-        <Menu size={30} style={{ color: showBg ? theme.dark : theme.light }} />
+        <Menu size={28} style={{ color: showBg ? theme.dark : theme.light }} />
       </button>
     </div>
   );
