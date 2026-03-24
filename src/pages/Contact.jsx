@@ -27,7 +27,7 @@ const Contact = () => {
           {/* Page heading */}
           <div className="text-center mb-12">
             <h1
-              className="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+              className="text-4xl md:text-5xl font-bold tracking-tight mb-4 mt-4"
               style={{ color: theme.light }}
             >
               Get In Touch

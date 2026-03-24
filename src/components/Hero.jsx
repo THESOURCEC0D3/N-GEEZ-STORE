@@ -15,24 +15,24 @@ const Hero = () => {
       <div
         className="hidden lg:block absolute inset-0 bg-no-repeat bg-cover"
         style={{
-          backgroundImage: `url('${config.heroImages.desktop}')`,
-          backgroundPosition: "50% 10%",
+          backgroundImage: `url('${config.heroImages.extra}')`,
+          backgroundPosition: "50% 30%",
         }}
       />
 
       {/* Gradient overlay — dark at bottom for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/50" />
 
       {/* Hero content — anchored to bottom */}
       <div className="relative z-10 h-full flex items-end">
-        <div className="w-full max-w-6xl mx-auto px-6 pb-20 md:pb-24">
+        <div className="w-full max-w-7xl mx-auto px-6 pb-20 md:pb-24">
           <h1
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight max-w-2xl"
             style={{ textShadow: "0 2px 20px rgba(0,0,0,0.3)" }}
           >
             {hero.headline}
           </h1>
-          <p className="mt-4 text-base md:text-lg text-white/80 max-w-lg leading-relaxed">
+          <p className="mt-4 text-base md:text-lg text-white/80 max-w-xl leading-relaxed">
             {hero.subheadline}
           </p>
           <div className="mt-8 flex flex-wrap gap-4">

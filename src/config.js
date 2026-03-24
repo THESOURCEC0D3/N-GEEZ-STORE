@@ -33,9 +33,10 @@ export const config = {
   heroImages: {
     mobile: "/assets/MobileHeroImg.jpg",
     desktop: "/assets/DesktopHeroImg.jpg",
+    extra: "/assets/contactpagebgimg1.jpg",
   },
 
-  contactBgImage:{ extra1: "/assets/contactpgbgimg1.jpg" },
+  contactBgImage: { extra1: "/assets/contactpgbgimg1.jpg" },
 
   services: [
     {
