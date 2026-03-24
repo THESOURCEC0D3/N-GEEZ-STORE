@@ -69,7 +69,10 @@ const Products = () => {
   });
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div
+      className="flex flex-col min-h-screen"
+      style={{ backgroundColor: config.theme.pageBg }}
+    >
       <Header setIsOpen={setIsOpen} />
       <MobileSidebar isOpen={isOpen} setIsOpen={setIsOpen} />
 
@@ -86,7 +89,8 @@ const Products = () => {
       />
 
       <div className="flex-1 pt-24 px-5">
-        <h1 className="font-bold text-3xl md:text-5xl rounded-2xl p-5 mb-6"
+        <h1
+          className="font-bold text-3xl md:text-5xl rounded-2xl p-5 mb-6"
           style={{ color: config.theme.dark }}
         >
           Our Products
@@ -116,7 +120,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <Footer className="border"/>
+      <Footer className="border" />
     </div>
   );
 };
