@@ -1,6 +1,6 @@
 export const config = {
   businessName: "N-GEEZ",
-  whatsappNumber: "234806440e9580", // ← You need to add her WhatsApp number here
+  whatsappNumber: "2348064409580", // ← You need to add her WhatsApp number here
   currency: "₦",
   footerName: "N-GEEZ Perfumery & Body Care",
   contactMessage:
