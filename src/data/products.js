@@ -8,6 +8,7 @@ export const products = [
     gender: "Female",
     inStock: true,
     image: "/assets/D1.jpg",
+    tag: "Best Seller",
   },
   {
     id: 2,
@@ -98,6 +99,7 @@ export const products = [
     gender: "Female",
     inStock: true,
     image: "/assets/D13.jpg",
+    tag: "Best Seller",
   },
   {
     id: 12,
@@ -194,6 +196,7 @@ export const products = [
     category: "Skincare",
     inStock: true,
     image: "/assets/D23.jpg",
+    tag: "Best Seller",
   },
   {
     id: 23,

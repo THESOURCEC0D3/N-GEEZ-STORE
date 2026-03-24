@@ -10,6 +10,14 @@ const ProductCard = ({ product }) => {
       className="flex flex-col space-y-3 items-center justify-between rounded-2xl p-3 bg-white transition-all duration-300 z-10 cursor-pointer border hover:shadow-lg hover:-translate-y-1"
       style={{ borderColor: theme.border }}
     >
+      {product.tag && (
+        <span
+          className="text-xs font-bold px-3 py-1 rounded-full text-white self-start"
+          style={{ backgroundColor: theme.accent }}
+        >
+          {product.tag}
+        </span>
+      )}
       <img
         src={product.image}
         alt={product.name}
