@@ -88,7 +88,7 @@ const Products = () => {
         genders={genders}
       />
 
-      <div className="flex-1 pt-24 px-5">
+      <div className="flex-1 pt-24 px-2 md:px-5">
         <h1
           className="font-bold text-3xl md:text-5xl rounded-2xl p-5 mb-6"
           style={{ color: config.theme.dark }}
@@ -99,7 +99,7 @@ const Products = () => {
         {/* Mobile filter button — hidden on desktop */}
         <button
           onClick={() => setIsFilterOpen(true)}
-          className="md:hidden mb-4 px-4 py-2 text-white rounded-lg text-sm font-medium"
+          className="md:hidden mb-4 mx-5 px-4 py-2 text-white rounded-lg text-sm font-medium"
           style={{ backgroundColor: config.theme.accent }}
         >
           Filter

@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="flex flex-col space-y-3 items-center justify-between rounded-2xl p-3 bg-white transition-all duration-300 z-10 cursor-pointer border hover:shadow-lg hover:-translate-y-1"
+      className="flex flex-col space-y-3 items-center justify-between rounded-2xl p-3 bg-gray-300 transition-all duration-300 z-10 cursor-pointer border hover:shadow-lg hover:-translate-y-1"
       style={{ borderColor: theme.border }}
     >
       {product.tag && (
