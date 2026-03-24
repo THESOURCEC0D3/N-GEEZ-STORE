@@ -28,7 +28,7 @@ const ProductList = ({ products }) => {
   }
 
   return (
-    <div className="space-y-16 p-5">
+    <div className="space-y-16 p-2 md:p-5">
       {Object.entries(groupedProducts).map(([category, items]) => (
         <section key={category}>
           {/* Category Header */}
@@ -38,7 +38,7 @@ const ProductList = ({ products }) => {
 
           {/* Products Grid */}
           <motion.div
-            className="grid grid-cols-2 md:grid-cols-4 gap-3"
+            className="grid grid-cols-2 md:grid-cols-4 gap-2"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
