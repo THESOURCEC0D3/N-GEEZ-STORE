@@ -31,12 +31,12 @@ export const config = {
   },
 
   heroImages: {
-    mobile: "/assets/MobileHeroImg.jpg",
-    desktop: "/assets/DesktopHeroImg.jpg",
-    extra: "/assets/contactpagebgimg1.jpg",
+    mobile: "/assets/MobileHeroImg.webp",
+    desktop: "/assets/DesktopHeroImg.webp",
+    extra: "/assets/contactpagebgimg1.webp",
   },
 
-  contactBgImage: { extra1: "/assets/contactpgbgimg1.jpg" },
+  contactBgImage: { extra1: "/assets/contactpgbgimg1.webp" },
 
   services: [
     {
