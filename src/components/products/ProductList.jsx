@@ -28,7 +28,7 @@ const ProductList = ({ products }) => {
   }
 
   return (
-    <div className="space-y-5 p-2 md:p-5">
+    <div className="space-y-16 p-1 md:p-5">
       {Object.entries(groupedProducts).map(([category, items]) => (
         <section key={category}>
           {/* Category Header */}
