@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
       <img
         src={product.image}
         alt={product.name}
-        className="size-58 rounded-xl object-cover"
+        className="w-full aspect-square rounded-xl object-cover"
       />
       <h2
         className="text-sm font-semibold text-center"
