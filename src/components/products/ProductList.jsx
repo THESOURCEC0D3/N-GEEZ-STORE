@@ -28,11 +28,11 @@ const ProductList = ({ products }) => {
   }
 
   return (
-    <div className="space-y-16 p-2 md:p-5">
+    <div className="space-y-5 p-2 md:p-5">
       {Object.entries(groupedProducts).map(([category, items]) => (
         <section key={category}>
           {/* Category Header */}
-          <h2 className="text-3xl md:text-5xl text-left font-bold border-t p-3 border-t-8 mt-5 mb-5 text-black" style={{ borderColor: "#E5E7EB" }}>
+          <h2 className="text-3xl md:text-5xl text-left font-bold border-t p-3 border-t-8 mt-5 mb-5 text-black" style={{ borderColor: "black" }}>
             {categoryTitles[category] || category}
           </h2>
 
