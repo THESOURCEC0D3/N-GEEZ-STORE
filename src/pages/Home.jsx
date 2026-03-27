@@ -5,6 +5,7 @@ import WhyChooseUs from "../components/WhyChooseUs.jsx";
 import Footer from "../components/Footer.jsx";
 import Testimonials from "../components/Testimonial.jsx";
 import MobileSidebar from "../components/MobileSidebar";
+import HowItWorks from "../components/HowItWorks.jsx";
 import { useState } from "react";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Hero />
       <Services />
       <WhyChooseUs />
+      <HowItWorks />
       <Testimonials />
       <Footer />
     </>
