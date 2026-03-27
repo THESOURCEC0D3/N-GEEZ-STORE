@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
   };
 
   return (
-    <div className="bg-neutral-50 py-20 px-6">
+    <div className="bg-purple-50 py-5 px-6">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
