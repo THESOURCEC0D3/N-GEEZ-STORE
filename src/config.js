@@ -72,10 +72,10 @@ export const config = {
       title: "Long-Lasting Scents",
       desc: "Fragrances designed to stay fresh and elegant all day long.",
     },
-    {
-      title: "Luxury Without the Wait",
-      desc: "Order on WhatsApp and get your products delivered fast.",
-    },
+   {
+  title: "Bulk Order Delivery",
+  desc: "Ordering in bulk? We deliver straight to your doorstep. Walk-in customers welcome at our GRA location.",
+},
     {
       title: "Tested & Trusted",
       desc: "Loved by fragrance and skincare enthusiasts across Port Harcourt.",
