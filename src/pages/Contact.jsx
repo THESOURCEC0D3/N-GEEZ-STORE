@@ -119,9 +119,9 @@ const Contact = () => {
                 How To Get Your Order
               </h3>
               <div className="space-y-1 text-sm" style={{ color: theme.muted }}>
-                <p>
-                  Pickup from our address "No 4 Evo Crescent, GRA, Port
-                  Harcourt."
+                <p className="font-bold">
+                  Pickup from our address <span>"No 4 Evo Crescent, GRA, Port
+                  Harcourt."</span>
                 </p>
                 <p>
                   Bulk orders qualify for delivery — ask us on WhatsApp for
