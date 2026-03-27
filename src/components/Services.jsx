@@ -31,7 +31,7 @@ export default function Services() {
 
   return (
     <section className="py-20 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center mb-12 text-black">Our Services</h2>
+      <h2 className="text-4xl font-bold text-center mb-5 text-black">Our Services</h2>
 
       <div className="relative max-w-6xl mx-auto">
         <div className="overflow-hidden" ref={emblaRef}>
