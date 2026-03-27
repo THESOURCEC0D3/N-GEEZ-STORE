@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.1 }}
       >
-        <h2 className="text-4xl font-bold text-black text-center">
+        <h2 className="text-4xl font-bold text-black text-center mb-5">
           Why Choose Us
         </h2>
         <div className="max-w-7xl mx-auto text-center flex flex-col md:flex-row items-center gap-12 p-2">
